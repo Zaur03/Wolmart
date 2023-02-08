@@ -357,28 +357,238 @@
   left: -175px;
   font-size: 15px;
 }
-#category .sort .nav-bar ul a li {
-  position: absolute;
-  top: -630px;
-  left: -290px;
+
+#show .box:hover .box2 {
+  opacity: 1;
 }
-#category .sort .nav-bar2 ul a li {
+#show .box button {
   position: absolute;
-  top: -610px;
+  top: 650px;
+  left: 1170px;
+  border: 0px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 100;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
 }
-#category .sort .nav-bar3 ul a li {
+#show .box button li {
   position: absolute;
-  top: -590px;
+  text-align: center;
+  list-style: none;
+  left: 15px;
+  top: 8px;
 }
-#category .sort .nav-bar4 ul a li {
-  position: absolute;
-  top: -570px;
+#show .box button i {
+  color: black;
+  font-size: 15px;
+  text-align: center;
 }
-#category .sort .nav-bar5 ul a li {
+#show .box button .box2 i {
+  color: black;
+  font-size: 25px;
   position: absolute;
-  top: -550px;
+  left: 120px;
+  top: 5px;
 }
-#category .sort .nav-bar6 ul a li {
+#show .box button .box3 i {
+  color: black;
+  font-size: 25px;
   position: absolute;
-  top: -530px;
+  left: 150px;
+  top: 5px;
+}
+
+#categories .box h6 {
+  position: absolute;
+  top: 730px;
+  left: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #666666;
+}
+#categories .box1 h6 {
+  position: absolute;
+  top: 705px;
+  left: 280px;
+  font-size: 50px;
+}
+#categories .box2 li {
+  position: relative;
+  list-style: none;
+}
+#categories .box2 li a {
+  position: absolute;
+  top: 310px;
+  left: -130px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#categories .box3 li {
+  position: relative;
+  list-style: none;
+}
+#categories .box3 li a {
+  position: absolute;
+  top: 350px;
+  left: -130px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#categories .box8 li {
+  position: relative;
+  list-style: none;
+}
+#categories .box8 li a {
+  position: absolute;
+  top: 390px;
+  left: -130px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#categories .box9 li {
+  position: relative;
+  list-style: none;
+}
+#categories .box9 li a {
+  position: absolute;
+  top: 430px;
+  left: -130px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#categories .box10 li {
+  position: relative;
+  list-style: none;
+}
+#categories .box10 li a {
+  position: absolute;
+  top: 470px;
+  left: -130px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#categories .box11 li {
+  position: relative;
+  list-style: none;
+}
+#categories .box11 li a {
+  position: absolute;
+  top: 510px;
+  left: -130px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#categories .box12 li {
+  position: relative;
+  list-style: none;
+}
+#categories .box12 li a {
+  position: absolute;
+  top: 550px;
+  left: -130px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#categories .box13 li {
+  position: relative;
+  list-style: none;
+}
+#categories .box13 li a {
+  position: absolute;
+  top: 590px;
+  left: -130px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+#price .box h6 {
+  position: absolute;
+  top: 1130px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #666666;
+}
+#price .box .box1 h6 {
+  position: absolute;
+  top: 1130px;
+  left: 220px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#price .box .box1 a {
+  text-decoration: none;
+  position: absolute;
+  top: 1170px;
+  color: black;
+  left: 20px;
+}
+#price .box .box2 a {
+  text-decoration: none;
+  position: absolute;
+  top: 1210px;
+  color: black;
+  left: 20px;
+}
+#price .box .box3 a {
+  text-decoration: none;
+  position: absolute;
+  top: 1250px;
+  color: black;
+  left: 20px;
+}
+#price .box .box4 a {
+  text-decoration: none;
+  position: absolute;
+  top: 1290px;
+  color: black;
+  left: 20px;
+}
+#price .box .box5 a {
+  text-decoration: none;
+  position: absolute;
+  top: 1330px;
+  color: black;
+  left: 20px;
+}
+#price .box input {
+  position: absolute;
+  top: 1380px;
+  left: 20px;
+  width: 60px;
+}
+#price .box p {
+  position: absolute;
+  top: 1360px;
+  left: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+#price .box .box6 a input {
+  position: absolute;
+  top: 905px;
+  left: -850px;
+}
+#price .box .box6 button {
+  position: absolute;
+  top: 1379px;
+  left: 220px;
+  background-color: #3C78B4;
+  width: 4%;
+  height: 5%;
+  border-radius: 3px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
