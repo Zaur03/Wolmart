@@ -49,18 +49,15 @@
 }
 
 #content .image img {
-  display: block;
   max-width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#sport .box {
-  overflow: hidden;
-}
-#sport .box:hover {
+#sport .box:hover img {
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 #sport .box img {
   border-radius: 50%;
@@ -87,11 +84,9 @@
   position: absolute;
   left: 30px;
 }
-#sport .box1 {
-  overflow: hidden;
-}
-#sport .box1:hover {
+#sport .box1 img:hover {
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 #sport .box1 img {
   border-radius: 50%;
@@ -118,11 +113,9 @@
   text-decoration: none;
   color: black;
 }
-#sport .box2 {
-  overflow: hidden;
-}
-#sport .box2:hover {
+#sport .box2 img:hover {
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 #sport .box2 img {
   border-radius: 50%;
@@ -149,11 +142,9 @@
   text-decoration: none;
   color: black;
 }
-#sport .box3 {
-  overflow: hidden;
-}
-#sport .box3:hover {
+#sport .box3 img:hover {
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 #sport .box3 img {
   border-radius: 50%;
@@ -181,11 +172,9 @@
   color: black;
 }
 
-.box4 {
-  overflow: hidden;
-}
-.box4:hover {
+.box4 img:hover {
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 .box4 img {
   border-radius: 50%;
@@ -213,11 +202,9 @@
   color: black;
 }
 
-.box5 {
-  overflow: hidden;
-}
-.box5:hover {
+.box5 img:hover {
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 .box5 img {
   border-radius: 50%;
@@ -245,11 +232,9 @@
   color: black;
 }
 
-.box6 {
-  overflow: hidden;
-}
-.box6:hover {
+.box6 img:hover {
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 .box6 img {
   border-radius: 50%;
@@ -277,11 +262,9 @@
   color: black;
 }
 
-.box7 {
-  overflow: hidden;
-}
-.box7:hover {
+.box7 img:hover {
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 .box7 img {
   border-radius: 50%;
@@ -511,6 +494,1515 @@
   list-style: none;
   text-decoration: none;
 }
+#categories .col-lg-5 .box img {
+  position: absolute;
+  top: 720px;
+  left: 320px;
+}
+#categories .col-lg-5 .box-i i {
+  color: #000;
+  position: absolute;
+  top: 1020px;
+  left: 400px;
+}
+#categories .col-lg-5 .box-i1 {
+  color: transparent;
+  position: absolute;
+  top: -90px;
+  left: -15px;
+}
+#categories .col-lg-5 .box-i2 {
+  color: transparent;
+  position: absolute;
+  top: -90px;
+  left: 10px;
+}
+#categories .col-lg-5 .box-i3 {
+  color: white;
+  position: absolute;
+  top: -90px;
+  left: 40px;
+}
+#categories .col-lg-5 p {
+  position: absolute;
+  top: 1060px;
+  text-align: center;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#categories .col-lg-5 span {
+  position: absolute;
+  top: 1080px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#categories .col-lg-5 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 440px;
+  font-size: 15px;
+}
+#categories .box1 i {
+  position: absolute;
+  top: 1110px;
+  left: 380px;
+  font-size: 15px;
+}
+#categories .box2 i {
+  position: absolute;
+  top: 1110px;
+  left: 400px;
+  font-size: 15px;
+}
+#categories .box3 i {
+  position: absolute;
+  top: 1110px;
+  left: 420px;
+  font-size: 15px;
+}
+#categories .box4 i {
+  position: absolute;
+  top: 654px;
+  font-size: 15px;
+  left: -310px;
+}
+#categories .box4 p {
+  position: absolute;
+  top: 650px;
+  left: -200px;
+  font-size: 15px;
+  color: #ECB4A6;
+}
+#categories .box4 h6 {
+  position: absolute;
+  top: 680px;
+  left: -300px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-6 .box img {
+  position: absolute;
+  top: 720px;
+  left: 650px;
+}
+.col-lg-6 .box-i i {
+  color: #000;
+  position: absolute;
+  top: 1020px;
+  left: 750px;
+}
+.col-lg-6 .box-i1 {
+  color: black;
+  position: absolute;
+  top: -90px;
+  left: 75px;
+}
+.col-lg-6 .box-i2 {
+  color: black;
+  position: absolute;
+  top: -90px;
+  left: 100px;
+}
+.col-lg-6 .box-i3 {
+  color: black;
+  position: absolute;
+  top: -90px;
+  left: 125px;
+}
+.col-lg-6 p {
+  position: absolute;
+  top: 1060px;
+  text-align: center;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  left: 750px;
+}
+.col-lg-6 span {
+  position: absolute;
+  top: 1080px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  left: 725px;
+}
+.col-lg-6 h6 {
+  position: absolute;
+  top: 1138px;
+  left: 720px;
+}
+.col-lg-6 h5 {
+  position: absolute;
+  top: 1138px;
+  font-size: 15px;
+  left: 780px;
+  font-weight: 600;
+  color: #aaa;
+}
+.col-lg-6 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 700px;
+  font-size: 15px;
+}
+.col-lg-6 .box1 i {
+  position: absolute;
+  top: 1110px;
+  left: 780px;
+  font-size: 15px;
+}
+.col-lg-6 .box2 a {
+  position: absolute;
+  top: -0.1px;
+  left: 320px;
+  font-size: 15px;
+}
+.col-lg-6 .box3 a {
+  position: absolute;
+  top: -0.1px;
+  left: 320px;
+  font-size: 15px;
+}
+.col-lg-6 .box4 a {
+  position: absolute;
+  top: 456px;
+  font-size: 15px;
+  left: 1070px;
+}
+.col-lg-6 .box4 p {
+  position: absolute;
+  top: 700px;
+  left: 400px;
+  font-size: 15px;
+  color: #ECB4A6;
+}
+.col-lg-6 .box5 a {
+  position: absolute;
+  top: -0.1px;
+  font-size: 15px;
+  left: 80px;
+}
+.col-lg-6 .box5 p {
+  position: absolute;
+  top: 1105px;
+  left: 810px;
+  font-size: 15px;
+  color: #ECB4A6;
+}
+
+.col-lg-7 .box img {
+  position: absolute;
+  top: 720px;
+  left: 980px;
+}
+.col-lg-7 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1020px;
+  left: 1100px;
+}
+.col-lg-7 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1015px;
+  left: 1125px;
+}
+.col-lg-7 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1015px;
+  left: 1150px;
+}
+.col-lg-7 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1015px;
+  left: 1175px;
+}
+.col-lg-7 p {
+  position: absolute;
+  top: 1060px;
+  left: 1100px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-7 span {
+  position: absolute;
+  top: 1080px;
+  left: 1100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-7 h6 {
+  position: absolute;
+  top: 1140px;
+  left: 1100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-7 .box i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 210px;
+  font-size: 15px;
+}
+.col-lg-7 .box .box2 a {
+  position: absolute;
+  top: -1px;
+  color: #FF9933;
+  left: 680px;
+  font-size: 15px;
+}
+.col-lg-7 .box .box3 a {
+  position: absolute;
+  top: -1px;
+  color: #FF9933;
+  left: 640px;
+}
+.col-lg-7 .box .box4 a {
+  position: absolute;
+  top: 455px;
+  color: #FF9933;
+  left: 1430px;
+}
+.col-lg-7 .box .box5 a {
+  position: absolute;
+  top: 499px;
+  color: #FF9933;
+  left: 890px;
+}
+.col-lg-7 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-7 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+
+.col-lg-8 .box img {
+  position: absolute;
+  top: 1180px;
+  left: 320px;
+}
+.col-lg-8 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 390px;
+}
+.col-lg-8 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 420px;
+}
+.col-lg-8 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 450px;
+}
+.col-lg-8 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 480px;
+}
+.col-lg-8 p {
+  position: absolute;
+  top: 1520px;
+  left: 420px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-8 span {
+  position: absolute;
+  top: 1550px;
+  left: 390px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-8 h6 {
+  position: absolute;
+  top: 1140px;
+  left: 1100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-8 .box i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 210px;
+  font-size: 15px;
+}
+.col-lg-8 .box .box2 a {
+  position: absolute;
+  top: -1px;
+  color: #FF9933;
+  left: 680px;
+  font-size: 15px;
+}
+.col-lg-8 .box .box3 a {
+  position: absolute;
+  top: -1px;
+  color: #FF9933;
+  left: 640px;
+}
+.col-lg-8 .box .box4 a {
+  position: absolute;
+  top: 455px;
+  color: #FF9933;
+  left: 1430px;
+}
+.col-lg-8 .box .box5 a {
+  position: absolute;
+  top: 499px;
+  color: #FF9933;
+  left: 890px;
+}
+.col-lg-8 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-8 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-8 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-8 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-8 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-8 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-8 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-8 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-3 .box img {
+  position: absolute;
+  top: 1180px;
+  left: 650px;
+}
+.col-lg-3 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 720px;
+}
+.col-lg-3 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 750px;
+}
+.col-lg-3 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 780px;
+}
+.col-lg-3 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 810px;
+}
+.col-lg-3 p {
+  position: absolute;
+  top: 1520px;
+  left: 740px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-3 span {
+  position: absolute;
+  top: 1550px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-3 h2 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-3 .box a {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 40px;
+  font-size: 15px;
+}
+.col-lg-3 .box .box2 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 460px;
+  font-size: 15px;
+}
+.col-lg-3 .box .box3 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-3 .box .box4 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 680px;
+}
+.col-lg-3 .box .box5 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-3 .box .box5 .box6 a {
+  position: absolute;
+  top: 610px;
+  left: 200px;
+}
+.col-lg-3 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-3 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-3 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-3 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-3 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-3 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-3 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-3 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-9 .box img {
+  position: absolute;
+  top: 1180px;
+  left: 990px;
+}
+.col-lg-9 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 1060px;
+}
+.col-lg-9 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1485px;
+  left: 1085px;
+}
+.col-lg-9 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1485px;
+  left: 1110px;
+}
+.col-lg-9 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1485px;
+  left: 1140px;
+}
+.col-lg-9 p {
+  position: absolute;
+  top: 1520px;
+  left: 1100px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-9 span {
+  position: absolute;
+  top: 1550px;
+  left: 1070px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-9 h2 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 1080px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-9 .box a {
+  position: absolute;
+  top: 1610px;
+  color: #FF9933;
+  left: 1040px;
+  font-size: 15px;
+}
+.col-lg-9 .box .box200 a {
+  position: absolute;
+  top: 1570px;
+  color: #FF9933;
+  left: 1020px;
+  font-size: 15px;
+}
+.col-lg-9 .box .box300 a {
+  position: absolute;
+  top: 1570px;
+  color: #FF9933;
+  left: 1040px;
+}
+.col-lg-9 .box .box400 i {
+  position: absolute;
+  top: -36px;
+  color: #FF9933;
+  left: 20px;
+}
+.col-lg-9 .box .box500 i {
+  position: absolute;
+  top: -36px;
+  color: #FF9933;
+  left: 40px;
+}
+.col-lg-9 .box .box500 .box600 i {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+.col-lg-9 .box .box500 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-9 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-9 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-9 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-9 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-9 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-9 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-9 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-10 .box img {
+  position: absolute;
+  top: 1680px;
+  left: 320px;
+}
+.col-lg-10 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 720px;
+}
+.col-lg-10 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 750px;
+}
+.col-lg-10 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 780px;
+}
+.col-lg-10 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 810px;
+}
+.col-lg-10 p {
+  position: absolute;
+  top: 1520px;
+  left: 740px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-10 span {
+  position: absolute;
+  top: 1550px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-10 h2 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-10 .box a {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 40px;
+  font-size: 15px;
+}
+.col-lg-10 .box .box2 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 460px;
+  font-size: 15px;
+}
+.col-lg-10 .box .box3 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-10 .box .box4 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 680px;
+}
+.col-lg-10 .box .box5 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-10 .box .box5 .box6 a {
+  position: absolute;
+  top: 610px;
+  left: 200px;
+}
+.col-lg-10 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-10 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-10 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-10 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-10 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-10 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-10 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-10 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-12 .box img {
+  position: absolute;
+  top: 1680px;
+  left: 650px;
+}
+.col-lg-12 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 720px;
+}
+.col-lg-12 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 750px;
+}
+.col-lg-12 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 780px;
+}
+.col-lg-12 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 810px;
+}
+.col-lg-12 p {
+  position: absolute;
+  top: 1520px;
+  left: 740px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-12 span {
+  position: absolute;
+  top: 1550px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-12 h2 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-12 .box a {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 40px;
+  font-size: 15px;
+}
+.col-lg-12 .box .box2 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 460px;
+  font-size: 15px;
+}
+.col-lg-12 .box .box3 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-12 .box .box4 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 680px;
+}
+.col-lg-12 .box .box5 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-12 .box .box5 .box6 a {
+  position: absolute;
+  top: 610px;
+  left: 200px;
+}
+.col-lg-12 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-12 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-12 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-12 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-12 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-12 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-12 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-12 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-1 .box img {
+  position: absolute;
+  top: 1680px;
+  left: 990px;
+}
+.col-lg-1 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 720px;
+}
+.col-lg-1 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 750px;
+}
+.col-lg-1 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 780px;
+}
+.col-lg-1 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 810px;
+}
+.col-lg-1 p {
+  position: absolute;
+  top: 1520px;
+  left: 740px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-1 span {
+  position: absolute;
+  top: 1550px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-1 h2 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-1 .box a {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 40px;
+  font-size: 15px;
+}
+.col-lg-1 .box .box2 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 460px;
+  font-size: 15px;
+}
+.col-lg-1 .box .box3 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-1 .box .box4 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 680px;
+}
+.col-lg-1 .box .box5 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-1 .box .box5 .box6 a {
+  position: absolute;
+  top: 610px;
+  left: 200px;
+}
+.col-lg-1 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-1 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-1 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-1 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-1 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-1 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-1 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-1 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-4 .box img {
+  position: absolute;
+  top: 2150px;
+  left: 320px;
+}
+.col-lg-4 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 720px;
+}
+.col-lg-4 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 750px;
+}
+.col-lg-4 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 780px;
+}
+.col-lg-4 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 810px;
+}
+.col-lg-4 p {
+  position: absolute;
+  top: 1520px;
+  left: 740px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-4 span {
+  position: absolute;
+  top: 1550px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-4 h2 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-4 .box a {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 40px;
+  font-size: 15px;
+}
+.col-lg-4 .box .box2 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 460px;
+  font-size: 15px;
+}
+.col-lg-4 .box .box3 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-4 .box .box4 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 680px;
+}
+.col-lg-4 .box .box5 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-4 .box .box5 .box6 a {
+  position: absolute;
+  top: 610px;
+  left: 200px;
+}
+.col-lg-4 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-4 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-4 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-4 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-4 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-4 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-4 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-4 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-11 .box img {
+  position: absolute;
+  top: 2150px;
+  left: 650px;
+}
+.col-lg-11 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 720px;
+}
+.col-lg-11 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 750px;
+}
+.col-lg-11 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 780px;
+}
+.col-lg-11 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 810px;
+}
+.col-lg-11 p {
+  position: absolute;
+  top: 1520px;
+  left: 740px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-11 span {
+  position: absolute;
+  top: 1550px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-11 h2 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-11 .box a {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 40px;
+  font-size: 15px;
+}
+.col-lg-11 .box .box2 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 460px;
+  font-size: 15px;
+}
+.col-lg-11 .box .box3 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-11 .box .box4 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 680px;
+}
+.col-lg-11 .box .box5 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-11 .box .box5 .box6 a {
+  position: absolute;
+  top: 610px;
+  left: 200px;
+}
+.col-lg-11 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-11 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-11 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-11 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-11 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-11 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-11 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-11 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-lg-2 .box img {
+  position: absolute;
+  top: 2150px;
+  left: 990px;
+}
+.col-lg-2 .box-i i {
+  color: black;
+  position: absolute;
+  top: 1490px;
+  left: 720px;
+}
+.col-lg-2 .box-i1 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 750px;
+}
+.col-lg-2 .box-i2 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 780px;
+}
+.col-lg-2 .box-i3 {
+  color: black;
+  position: absolute;
+  top: 1487px;
+  left: 810px;
+}
+.col-lg-2 p {
+  position: absolute;
+  top: 1520px;
+  left: 740px;
+  color: #ECB4A6;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-2 span {
+  position: absolute;
+  top: 1550px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-2 h2 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 710px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.col-lg-2 .box a {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 40px;
+  font-size: 15px;
+}
+.col-lg-2 .box .box2 i {
+  position: absolute;
+  top: 1110px;
+  color: #FF9933;
+  left: 460px;
+  font-size: 15px;
+}
+.col-lg-2 .box .box3 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-2 .box .box4 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 680px;
+}
+.col-lg-2 .box .box5 i {
+  position: absolute;
+  top: 610px;
+  color: #FF9933;
+  left: 480px;
+}
+.col-lg-2 .box .box5 .box6 a {
+  position: absolute;
+  top: 610px;
+  left: 200px;
+}
+.col-lg-2 .box .box5 h3 {
+  position: absolute;
+  top: 1105px;
+  left: 1170px;
+  font-size: 15px;
+  color: #ECB4A6;
+  font-weight: 200;
+}
+.col-lg-2 .box .box6 a {
+  position: absolute;
+  top: 499px;
+  left: 930px;
+}
+.col-lg-2 .box .box2 a {
+  position: absolute;
+  top: 465px;
+  left: 4px;
+}
+.col-lg-2 .box .box3 a {
+  position: absolute;
+  top: 465px;
+  left: 7px;
+}
+.col-lg-2 .box .box4 a {
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.col-lg-2 .box .box5 a {
+  position: absolute;
+  top: 965px;
+  left: 240px;
+}
+.col-lg-2 .box h5 {
+  position: absolute;
+  top: 1575px;
+  left: 475px;
+  font-weight: 200;
+  color: #ECB4A6;
+  font-size: 15px;
+}
+.col-lg-2 .box h1 {
+  position: absolute;
+  top: 1600px;
+  font-size: 20px;
+  left: 420px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
 #price .box h6 {
   position: absolute;
@@ -582,7 +2074,7 @@
 }
 #price .box .box6 button {
   position: absolute;
-  top: 1379px;
+  top: 1375px;
   left: 220px;
   background-color: #3C78B4;
   width: 4%;
@@ -591,4 +2083,371 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #fff;
   text-align: center;
+}
+#price .box .box7 h6 {
+  position: absolute;
+  top: 1450px;
+}
+#price .box .box7 h1 {
+  position: absolute;
+  top: 1435px;
+  left: 200px;
+}
+#price .box .box8 {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 1490px;
+  left: 20px;
+}
+#price .box .box8:hover {
+  border: 1px solid blue;
+}
+#price .box .box9 a {
+  position: absolute;
+  top: 1488px;
+  left: 55px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box9 a:hover {
+  color: blue;
+}
+#price .box .box13 {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 1520px;
+  left: 20px;
+}
+#price .box .box13:hover {
+  border: 1px solid blue;
+}
+#price .box .box10 a {
+  position: absolute;
+  top: 1520px;
+  left: 55px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box10 a:hover {
+  color: blue;
+}
+#price .box .box14 {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 1550px;
+  left: 20px;
+}
+#price .box .box14:hover {
+  border: 1px solid blue;
+}
+#price .box .box11 a {
+  position: absolute;
+  top: 1550px;
+  left: 55px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box11 a:hover {
+  color: blue;
+}
+#price .box .box15 {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 1580px;
+  left: 20px;
+}
+#price .box .box15:hover {
+  border: 1px solid blue;
+}
+#price .box .box12 a {
+  position: absolute;
+  top: 1580px;
+  left: 55px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box12 a:hover {
+  color: blue;
+}
+#price .box .box20 {
+  position: absolute;
+  top: 500px;
+  left: 1px;
+}
+#price .box .box20 h1 {
+  position: absolute;
+  top: 1115px;
+  left: 200px;
+}
+#price .box .box21 {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 1680px;
+  left: 20px;
+}
+#price .box .box21:hover {
+  color: blue;
+}
+#price .box .box22 a {
+  position: absolute;
+  top: 1678px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box22 a:hover {
+  color: blue;
+}
+#price .box .box23 {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 1710px;
+  left: 20px;
+}
+#price .box .box24 a {
+  position: absolute;
+  top: 1710px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box24 a:hover {
+  color: blue;
+}
+#price .box .box25 {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 1740px;
+  left: 20px;
+}
+#price .box .box26 a {
+  position: absolute;
+  top: 1740px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box26 a:hover {
+  color: blue;
+}
+#price .box .box27 {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 1770px;
+  left: 20px;
+}
+#price .box .box28 a {
+  position: absolute;
+  top: 1770px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box28 a:hover {
+  color: blue;
+}
+#price .box .box29 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 30px;
+  left: -40px;
+}
+#price .box .box30 a {
+  position: absolute;
+  top: 1800px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box30 a:hover {
+  color: blue;
+}
+#price .box .box31 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 60px;
+  left: -40px;
+}
+#price .box .box32 a {
+  position: absolute;
+  top: 1830px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box32 a:hover {
+  color: blue;
+}
+#price .box .box33 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 90px;
+  left: -40px;
+}
+#price .box .box34 a {
+  position: absolute;
+  top: 1860px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+}
+#price .box .box34 a:hover {
+  color: blue;
+}
+#price .box .box35 h6 {
+  position: absolute;
+  top: 1930px;
+}
+#price .box .box35 h1 {
+  position: absolute;
+  top: 1915px;
+  left: 200px;
+}
+#price .box .box36 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 222px;
+  left: -40px;
+}
+#price .box .box37 a {
+  position: absolute;
+  top: 1990px;
+  left: 60px;
+  color: black;
+}
+#price .box .box37 a:hover {
+  color: blue;
+}
+#price .box .box38 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 252px;
+  left: -40px;
+}
+#price .box .box39 a {
+  position: absolute;
+  top: 2020px;
+}
+#price .box .box40 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 282px;
+  left: -40px;
+}
+#price .box .box41 {
+  position: absolute;
+  top: 282px;
+  left: 1px;
+}
+#price .box .box42 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 312px;
+  left: -40px;
+}
+#price .box .box43 a {
+  position: absolute;
+  top: 2080px;
+}
+#price .box .box44 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 342px;
+  left: -40px;
+}
+#price .box .box45 a {
+  position: absolute;
+  top: 2110px;
+}
+#price .box .box46 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 372px;
+  left: -40px;
+}
+#price .box .box47 a {
+  position: absolute;
+  top: 2140px;
+}
+#price .box .box48 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  top: 402px;
+  left: -40px;
+}
+#price .box .box49 a {
+  position: absolute;
+  top: 2170px;
 }/*# sourceMappingURL=style.css.map */
